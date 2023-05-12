@@ -1,0 +1,39 @@
+.main_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  align-items:center;
+}
+.main{
+  height: 500px;
+  width: 500px;
+}
+.box{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(181, 220, 54);
+}
+.vertical{
+  height: 500px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(184, 237, 237);
+  cursor: pointer;
+  border: none;
+}
+.horizontal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(184, 237, 237);
+  width: 500px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+}
